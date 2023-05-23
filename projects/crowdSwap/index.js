@@ -17,9 +17,9 @@ const collateralBalance = await api.call({
 module.exports = {
   timetravel: true,
   misrepresentedTokens: false,
-  methodology: 'counts the number of MINT tokens in the Club Bonding contract.',
+  methodology: 'counts the number of MINT tokens in the CROWD Bonding contract.',
   start: 1000235,
-  bsc: {
+  polygon: {
      tvl,
     }
   };
